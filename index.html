@@ -54,7 +54,7 @@
                       <li><a href="index.html">Home</a></li>
                      <li><a href="#">ACARA</a></li> 
                       <li><a href="#">KONTAK</a></li>
-                      <li><a href="#"><span class="bg-primary text-white py-3 px-4 rounded"><span class="icon-user mr-3"></span>Masuk</span></a></li>
+                      <li><a href="#"><span class="bg-primary text-white py-3 px-4 rounded" data-toggle="modal" data-target="#myLogin"><span class="icon-user mr-3"></span>Masuk</span></a></li>
                     </ul>
                   </div>
                 </nav>
@@ -561,6 +561,34 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-warning" data-dismiss="modal" style="color:white">Hanya Berkunjung</button>
+                </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="myLogin" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+              <div class="wrapper">
+                  <form class="login">
+                    <p class="title">Log in</p>
+                    <input type="text" placeholder="Username" autofocus/>
+                    <i class="fa fa-user"></i>
+                    <input type="password" placeholder="Password" />
+                    <i class="fa fa-key"></i>
+                    <a href="#">Forgot your password?</a>
+                    <button>
+                      <i class="spinner"></i>
+                      <span class="state">Log in</span>
+                    </button>
+                  </form>
+                  </p>
                 </div>
           </div>
         </div>
